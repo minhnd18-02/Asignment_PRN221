@@ -93,4 +93,15 @@ crashlytics-build.properties
 .history
 .ionide
 
+# Ignore large video files
+*.mp4
+*.avi
+
+# Ignore large data files
+data/bigfile.csv
+
+# Ignore all files in a specific directory
+logs/
+
+
 # End of https://www.toptal.com/developers/gitignore/api/unity,visualstudiocode
